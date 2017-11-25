@@ -22,3 +22,139 @@ body {
   margin-bottom: 30px;
 }
 
+
+/* Main navigation */
+
+@media (max-width: 1200px) {
+  .menu-container {
+	display: none;	  
+  }
+}
+
+.menu-container {
+  height: 56px;
+}
+
+.menu-background {
+  background: #0d1973;
+  /*height: 56px;*/
+  overflow: visible;
+  margin-left: -1000px;
+  margin-right: -1000px;	
+  /*position: absolute;
+  left: 0;
+  right: 0;*/
+	
+}
+
+.menu {
+  margin-left: 1000px;
+  margin-right: 1000px;
+  height: 56px;
+  position: relative;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0d1973;
+}
+
+.menu li {
+    float: left;
+	border-left: 1px solid white;
+}
+
+.menu li:last-child {
+    border-right: 1px solid white;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 26px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: white;
+	color: #0d1973;
+}
+
+/* Booking */
+
+.booking-container {
+	border: 1px #999 solid;
+	margin: 10px 0;
+}
+ 
+.booking-tabs ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #CCC;
+
+}
+
+.booking-tabs li {
+    float: left;
+	border-right: 1px #999 solid;;
+	border-bottom: 1px #999 solid;
+}
+
+.booking-tabs li:last-child {
+    border-right: none;
+	border-bottom: 1px #999 solid;
+}
+
+.booking-tabs li.active {
+    float: left;
+	background: white;
+	border-right: 1px #999 solid;;
+	border-bottom: 0px;
+}
+
+.booking-tabs li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 16px 0;
+    text-decoration: none;
+	font-weight: bold;
+}
+
+.booking-tabs li a:hover {
+    background-color: white;
+	color: #0d1973;
+}
+
+.booking-container .container {
+	padding: 30px 20px;
+}
+
+.booking-element {
+	margin: 10px 0;
+}
+
+.booking-container .btn-success {
+	width: 100%;
+	height: 60px;
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/* General */
+
+h4 a {
+	color: #0d1973;
+}
+
+.btn-success, .btn-success:hover {
+	background-color: #ba4a9e;
+	border-color: #ba4a9e;
+}
